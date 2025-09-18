@@ -66,7 +66,7 @@ spec:
   template:
     spec:
       containers:
-        - image: bitnami/kubectl:latest
+        - image: bitnamilegacy/kubectl:latest
           name: {{ $hookName }}
           command:
             - /bin/sh
