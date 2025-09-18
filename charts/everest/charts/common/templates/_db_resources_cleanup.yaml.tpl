@@ -66,7 +66,7 @@ spec:
   template:
     spec:
       containers:
-        - image: percona/everest-helmtools:0.0.1
+        - image: bitnami/kubectl:latest
           name: {{ $hookName }}
           command:
             - /bin/sh
